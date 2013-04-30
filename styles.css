@@ -1,0 +1,120 @@
+/* * {margin:0; border:0} */
+body {margin:0; background:#EEECE9 url(images/bg_body.png) repeat-x; font:normal 18px Arial, sans-serif}
+a {font:normal Arial, sans-serif; color:#f27549}
+p {margin:0 0 18px 0}
+p.readmore,
+p.readmore a {font:normal 11px Arial, sans-serif; color:#f4784c}
+p.readmore a {text-decoration:underline}
+p.dark {font:normal 11px Arial, sans-serif; color:#224470}
+p.light {font:normal 11px Arial, sans-serif; color:#5086c6; margin-bottom:0}
+p.project-started {font-weight:bold; display:block; padding:15px 0 0 0; margin:0}
+p.title {font:bold 14px Arial, sans-serif; color:#224470}
+p.title_lrg {font:bold 18px Arial, sans-serif; color:#224470}
+p.text {font:normal 12px Arial, sans-serif; color:#224470}
+p.nopad {margin:0; padding:0}
+
+.block {display:block}
+.center {text-align:center}
+.clear {display:block; visibility:hidden; clear:both}
+.left {float:left}
+.middle {vertical-align:middle}
+.right {float:right}
+.relative {position:relative}
+.small {font-size:10px}
+.strong,
+p.strong {font-weight:bold}
+.underline {text-decoration:underline}
+.vamiddle {vertical-align:middle}
+
+
+h1 {font:bold 12px Arial, sans-serif; color:#224470; margin:0; padding:0 0 3px 0}
+h1.home {font:normal 20px "Courier New", Courier, monospace; color:#224470; text-align:center;font-weight:bold;}
+h1.search {font:normal 21px/1em "Courier New", Courier, monospace; color:#224470; letter-spacing:-0.18em}
+h1.large,
+h1.inline {font:bold 18px Arial, sans-serif; color:#224470; margin:0; padding:0 0 3px 5px}
+h1.larger {font-family:"Courier New", Courier, monospace; font-size:22px; font-weight:bold; color:#224470; letter-spacing:-0.05em}
+h2 {font:italic bold 12px Arial, sans-serif; color:#4baae2; margin:0; padding:0 0 10px 0}
+h2.press {padding:8px; font-weight:bold; font-size:13px; color:#224470}
+h3 {padding:5px 0 0 15px; font:normal 17px Cambria, Georgia, serif;color:#fff;letter-spacing:0.02em;}
+h3.full {padding-left:5px}
+h4 {padding:0; margin:0; font:bold 20px "Courier New", Courier, monospace; color:#fff}
+h5,
+h6 {font:normal 14px/20px Arial, sans-serif; color:#224470}
+h5.strong {font-weight:bold}
+h6.facebox {font:bold 12px Arial, sans-serif; color:#224470; padding:15px 0 4px 0; margin:0}
+h6.facebox span {font-weight:normal}
+
+/* icons */
+.water 				{background:url(/images/icon_water.png) no-repeat}
+.wind 				{background:url(/images/icon_wind.png) no-repeat}
+.education 			{background:url(/images/icon_book.png) no-repeat}
+.food 				{background:url(/images/icon_food.png) no-repeat}
+.medical 			{background:url(/images/icon_medical.png) no-repeat}
+.water_small 		{background:url(/images/icon_water_small.gif) no-repeat}
+.wind_small 		{background:url(/images/icon_wind_small.gif) no-repeat}
+.education_small 	{background:url(/images/icon_education_small.gif) no-repeat}
+.food_small 		{background:url(/images/icon_food_small.gif) no-repeat}
+.medical_small 		{background:url(/images/icon_medical_small.gif) no-repeat}
+.water_smaller 		{background:url(/images/icon_water_smaller.png) no-repeat}
+.wind_smaller 		{background:url(/images/icon_wind_smaller.png) no-repeat}
+.education_smaller 	{background:url(/images/icon_education_smaller.png) no-repeat}
+.food_smaller 		{background:url(/images/icon_food_smaller.png) no-repeat}
+.medical_smaller 	{background:url(/images/icon_medical_smaller.png) no-repeat}
+
+/* components */
+
+
+
+/* header */
+#wrapper-header {width:958px; margin-left:3px; height:156px}
+#header-left {float:left; height:156px; width:644px}
+#header-right {float:right; height:156px; width:314px; text-align:right}
+
+
+/* layout */
+#wrapper-outer {width:851px; margin:0 auto; background:none;}
+#wrapper-inner {width:851px; margin:0 auto 20px auto; min-height:1099px; height:auto !important; height:1099px}
+#wrapper-copy {width:964px; font:normal 11px Arial, sans-serif; color:#224470}
+
+
+/* footer */
+#wrapper-footer-images {border-top:8px solid #5086c6; padding:5px 0 5px 0; border-bottom:1px solid #a6abb0; margin-bottom:10px; list-style:none; width:958px}
+#wrapper-footer-images li {display:inline; margin:0; padding:0}
+.wrapper-footer-text {list-style:none; text-align:center}
+.wrapper-footer-text,
+.wrapper-footer-text a {font:normal 10px Arial, sans-serif; color:#00142b; text-decoration:none}
+.wrapper-footer-text a:hover {text-decoration:underline}
+.wrapper-footer-text li {display:inline}
+.wrapper-footer-text .spacer {padding:0 8px 0 8px}
+.wrapper-footer-text.narrow .spacer {padding:0 8px 0 8px}
+
+/* common styles */
+a.admin {float:right}
+a.back_to_project {color:#729840; display:block; padding:0 0 8px 5px}
+a.back_to_project.pad {padding-left:3px}
+a.breadcrumbs {line-height:23px; padding-left:3px}
+a.close {position:absolute; left:-2px; top:-2px}
+a.close_top_left {position:absolute; left:-7px; top:-6px}
+a.pad_top {padding-top:5px}
+a.pad_left {padding-left:7px}
+a.pad_left_extra {padding-left:13px}
+a.pad_bottom {padding-bottom:5px}
+a.pad_bottom_medium {padding-bottom:10px}
+a.social {line-height:33px; padding:0 3px 0 3px; height:27px}
+a.strong {font-weight:bold}
+a.btn_right {position:absolute; right:6px; top:26px}
+a.green, .green {color:#729840; background:transparent}
+a.ltblue, .ltblue {color:#6db8e6}
+a.blue {color:#346090}
+a.medblue, .medblue {color:#5086C6;}
+a.orange, .orange {color:#f27549}
+
+
+
+#banner {
+	margin: 50px 0 25px 0;
+}
+
+#content {
+	
+}
